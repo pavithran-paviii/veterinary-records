@@ -1,4 +1,39 @@
+body{
+  background: rgb(17,17,17);
+  background-image: linear-gradient(90deg, #FFD24C,#FBCB0A);
+  color: white;
+  border-radius: 10px;
+  display: block;
+  animation: bg-change 5s infinite alternate;
+  background-size:150%;
+  font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+@keyframes bg-change{
+  0%{
+    background-position: 0% 0%;
+  }
+  100%{
+    background-position: 100% 0%;
+  }
+}
 #navBar{
   display: flex;
   justify-content: flex-end;
+}
+#homePageDiv{
+  display: flex;
+  margin: auto;
+  width: 80%;
+  margin-top: 5%;
+}
+#homePageDiv>img{
+  height: 300px;
+}
+#homePageDiv>div:last-child{
+  margin: auto;
+  justify-content: center;
+  margin-left: 5%;
+  height: fit-content;
+  width: 50%;
 }

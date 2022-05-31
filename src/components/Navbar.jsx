@@ -11,10 +11,14 @@ export const Navbar = () => {
   return (
     <Box id="navBar">
         <span>
-            <input placeholder='Enter serial number'/>
-            <Button variant="outlined" onClick={search}>Search</Button>
+            <input placeholder='Enter serial number' style={{border:"1px solid black",
+          backgroundColor: "transparent",
+          padding: "5px",
+          borderRadius:"5px"
+          }}/>
+            <Button style={{color:"black"}} onClick={search}>Search</Button>
         </span>
-        <Button variant="outlined">Login</Button>
+        <Button style={{color:"black"}}>Login</Button>
     </Box>
   )
 }
