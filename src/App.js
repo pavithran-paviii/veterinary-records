@@ -5,12 +5,14 @@ import {Sidebar} from "./components/sidebar";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GoogleIcon from '@mui/icons-material/Google';
+import LoginPage from "./pages/loginPage";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <HomePageDiv/>
+      {/* <HomePageDiv/> */}
+      <LoginPage/>
       <Sidebar>
           <a href="https://www.instagram.com/mohamed_afryn_zf/" target={"_blank"} rel="noreferrer"><InstagramIcon/></a>
           <a href="#afrintwitter" target={"_blank"} rel="noreferrer"><TwitterIcon/></a>

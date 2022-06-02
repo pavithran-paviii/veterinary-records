@@ -37,3 +37,23 @@ body{
   height: fit-content;
   width: 50%;
 }
+#login-form{
+  width: max-content;
+  height: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+#login-valid{
+  color: green;
+  border: 1px solid black;
+  padding: 5px;
+}
+.login-form-data{
+  display: block;
+  color: black;
+  font-size: 15px;
+}
+.login-validation{
+  color: red;
+}
