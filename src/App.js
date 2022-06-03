@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <HomePageDiv/> */}
-      <LoginPage/>
+      <HomePageDiv/>
+      {/* <LoginPage/> */}
       <Sidebar>
           <a href="https://www.instagram.com/mohamed_afryn_zf/" target={"_blank"} rel="noreferrer"><InstagramIcon/></a>
           <a href="#afrintwitter" target={"_blank"} rel="noreferrer"><TwitterIcon/></a>
